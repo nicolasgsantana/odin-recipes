@@ -1,5 +1,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -33,9 +34,55 @@ a {
     color: maroon;
 }
 
+div {
+    display: inline-block;
+    box-sizing: content-box;    
+}
+
 .no-style{
     list-style: none;
     margin: 0;
     font-size: 20px;
     text-align: center;
 }
+
+.card {
+    border: 5px solid darkred;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    background-color:floralwhite;
+    margin: 20px auto;
+}
+
+.card-img {
+    width: 250px;
+    height: auto;
+    border: 2px solid darkred;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-content {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.card-link {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
